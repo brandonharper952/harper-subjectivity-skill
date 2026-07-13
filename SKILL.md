@@ -15,6 +15,8 @@ Classify each raw item by asking WHO ACTS, in this exact order. The first match 
 
 CENTRAL GATE ORDER (blind validation round 4, 2026-07): the vetoes in steps 1-3 run FIRST, at one central choke point, and their verdict is FINAL FOR EVERY BUCKET - listed, DocuSign, and confirmation alike. No positive matcher may run before them, and no matcher path may skip them. Round 4 proved that wiring the vetoes into individual matcher paths leaks: the untouched paths (licenses, DocuSign, confirmation) rendered vetoed content.
 
+FULL-POPULATION CENSUS (2026-07): after blind validation round 5, every distinct subjectivity string in the historical production population (9,595 exact-deduped strings) was dry-run through the pipeline and every rendered item reviewed against this canon, over seven fix iterations, until zero leaks remained. The families added by round 5 and the census are folded into the steps below.
+
 ```
 START: one raw subjectivity item
 |
@@ -44,6 +46,26 @@ START: one raw subjectivity item
    notices (signed or not), UW margin notes and broker commentary
    ("Q3:", "we are ok with that"), MVRs and other broker-run reports
    ("Motor Vehicle Records" and "Motor Vehicle Reports" alike).
+   Round 5 + census additions: premium/payment-receipt evidence in ANY
+   ordering ("Confirmation retail agent is in receipt of Min Earned
+   premium") - no bucket, including confirmation, may render it;
+   willingness-to-pay confirmations; carrier-scheduled inspection
+   reports with internal thresholds ("An inspection report is required
+   within 45 days of binding for risks with premiums of $2,500 or
+   greater"); inspections ordered by the carrier ("with color photos to
+   be ordered by us"); documents routed to or from the Company ("must
+   be received by the Company", "forwarded to the Company");
+   subjectivity-completion deadlines; final-underwriting-approval
+   boilerplate ("subject to final underwriting approval and/or
+   verification of application data"); requote consequences and quote
+   validity clauses ("may change upon our receipt of any new
+   information"); carrier audits against underwriting guidelines;
+   underwriting online-search notices and vendor-contact workflow
+   ("Overland Solutions will contact after the first 6 months"); the
+   producer's own identity data (agent/agency license numbers, NPN,
+   producer name and license); colon-form prohibited-exposure lists
+   ("Prohibited: ..." - the imperative safeguard condition "Prohibit
+   storage of highly flammable items" stays a visible confirmation).
    -> HIDE. Never-render evidence beats every other match,
       even a strong deliverable surface form.
 |
@@ -72,10 +94,16 @@ START: one raw subjectivity item
 |
 5. Broker or carrier acts?
    Surplus lines tax filings and SL forms of any state, non-admitted
-   forms of any state, state/tax packets, stamping office filings,
-   affidavits, diligent effort, no-known-loss letters signed at
-   binding, SIGNED statements of no losses, MVR pulls, recurring
-   annual program filings, internal routing and service tasks.
+   forms of any state, state/tax packets, compliance packets, stamping
+   office filings, affidavits, diligent effort and diligent-search
+   forms, declining-carrier forms, no-known-loss letters signed at
+   binding, SIGNED statements of no losses IN ANY WORD ORDER ("Signed
+   no loss statement for lapse in coverage" equals "Statement of No
+   Losses - Signed and dated"; match the family by semantics like the
+   financing family), signed declarations of no known claims, MVR
+   pulls, recurring annual program filings, internal routing and
+   service tasks. A bare UNSIGNED "Statement of no loss" is an
+   eligibility attestation and renders the confirmation line (step 7).
    -> HIDE (broker-only). The service team owns it.
 |
 6. Customer signs a broker-prepared form?
@@ -123,6 +151,16 @@ START: one raw subjectivity item
    deliverable. Classes: VINs, driver licenses, declaration pages,
    photos, resumes, inspection contact details, website, licenses and
    certifications, contracts, or a specific information ask.
+   Round-5 additions: the ask-verb gate covers the evidence-of-coverage
+   path too - a bare noun phrase ("Expiring Dec page and endorsements",
+   "COI for cleaning business") never renders; prohibition and
+   exclusion-list context vetoes positive matches, so vocabulary inside
+   a prohibited-exposures list ("certifications") is not an ask.
+   Recovered valid forms: "provide confirmation <fact>" is an
+   attestation ask (step 7); explicit info asks with value objects
+   ("Provide the 5 largest project values over the last 5 years")
+   render; the purpose-clause idiom "in order to bind coverage" is not
+   a bind request and does not veto the ask it trails.
    -> RENDER the fixed friendly phrasing for that class.
       Never render raw or lightly cleaned source text.
 |
