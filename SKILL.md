@@ -13,84 +13,116 @@ Use this skill before designing, implementing, reviewing, or testing any custome
 
 Classify each raw item by asking WHO ACTS, in this exact order. The first match wins, and every tie or doubt resolves toward the less visible outcome.
 
+CENTRAL GATE ORDER (blind validation round 4, 2026-07): the vetoes in steps 1-3 run FIRST, at one central choke point, and their verdict is FINAL FOR EVERY BUCKET - listed, DocuSign, and confirmation alike. No positive matcher may run before them, and no matcher path may skip them. Round 4 proved that wiring the vetoes into individual matcher paths leaks: the untouched paths (licenses, DocuSign, confirmation) rendered vetoed content.
+
 ```
 START: one raw subjectivity item
 |
-1. Never-render evidence ANYWHERE in the item?
+1. Third-party actor owns the document?
+   Subcontractors' / vendors' / tenants' COIs, their coverage or
+   contracts, coverage maintained ON subcontracted labor,
+   confirmations that vendors carry limits ("all participating
+   alcohol vendors carry Liquor Liability limits..."),
+   consequence-only language about uninsured subs ("claims related
+   to subcontractors may not be covered if..."). These are never
+   customer deliverables OR confirmations UNLESS the ask targets the
+   insured's OWN artifact ("Copy of standard contract used by
+   Applicant with subcontractors" still renders).
+   -> HIDE (unknown ownership; the service team backstops).
+|
+2. Never-render evidence ANYWHERE in the item?
    Payment or deposit references, premium finance and ANY completed or
    signed financing agreement (match the family by semantics -
    "financing agreement", "finance agreement", "premium financing
    agreement" - never one exact wording), bind requests or
    authorization to bind, order-of-coverage or effective-date
    confirmations, carrier rescind / cancel / withdraw / void /
-   re-underwrite language, TRIA / terrorism forms and notices (signed
-   or not), UW margin notes and broker commentary
-   ("Q3:", "we are ok with that"), MVRs and other broker-run reports.
+   re-underwrite language, application-approval and binder-receipt
+   conditions, quotation-accuracy boilerplate ("issued based on the
+   truthfulness and accuracy of the responses"), carrier-conducted
+   premises surveys and inspections, TRIA / terrorism forms and
+   notices (signed or not), UW margin notes and broker commentary
+   ("Q3:", "we are ok with that"), MVRs and other broker-run reports
+   ("Motor Vehicle Records" and "Motor Vehicle Reports" alike).
    -> HIDE. Never-render evidence beats every other match,
       even a strong deliverable surface form.
 |
-2. Carrier-conditional language ANYWHERE in the item?
+3. Carrier-conditional language ANYWHERE in the item?
    "Subject to change", "upon review", "receipt and acceptance",
-   "reserves the right", re-underwrite / re-rate markers. The quote's
-   pricing or terms being provisional on carrier review is carrier
-   workflow and VETOES every positive match: "please provide a full
-   list of products; pricing and terms subject to change upon review"
-   is hidden despite the please-provide construction.
+   "receipt, review and acceptance/approval", "reserves the right",
+   re-underwrite markers ("may affect our pricing, terms, and/or
+   acceptability"). The quote's pricing or terms being provisional on
+   carrier review is carrier workflow and VETOES every positive match
+   IN EVERY BUCKET: "please provide a full list of products; pricing
+   and terms subject to change upon review" is hidden despite the
+   please-provide construction, a signed supplement wrapped in
+   "receipt and acceptance" is hidden despite the signed-form match,
+   and a confirmation carrying re-underwrite language is hidden
+   despite the confirm verb.
    ONE exception: the standardized loss-runs ask (step 4) outranks
    conditional wrappers ("Subject to receipt and acceptance of 5
    years currently valued loss runs" still renders the loss-runs
-   contract).
+   contract). The carve-out is applied at the central gate, not
+   inside a matcher.
    -> HIDE.
-|
-3. Third-party actor owns the document?
-   Subcontractors' / vendors' / tenants' COIs, their coverage or
-   contracts, consequence-only language about uninsured subs
-   ("claims related to subcontractors may not be covered if...").
-   These are never customer deliverables UNLESS the ask targets the
-   insured's OWN artifact ("Copy of standard contract used by
-   Applicant with subcontractors" still renders).
-   -> HIDE (unknown ownership; the service team backstops).
 |
 4. Loss runs or loss history?
    -> RENDER the standardized loss-runs contract (section 3),
       always first in the rendered list.
 |
 5. Broker or carrier acts?
-   Surplus lines tax filings and SL forms of any state, state/tax
-   packets, stamping office filings, affidavits, diligent effort,
-   no-known-loss letters signed at binding, MVR pulls, recurring
+   Surplus lines tax filings and SL forms of any state, non-admitted
+   forms of any state, state/tax packets, stamping office filings,
+   affidavits, diligent effort, no-known-loss letters signed at
+   binding, SIGNED statements of no losses, MVR pulls, recurring
    annual program filings, internal routing and service tasks.
    -> HIDE (broker-only). The service team owns it.
 |
 6. Customer signs a broker-prepared form?
-   Signature or completion marker (signed, completed, executed,
-   dated, fill out) plus a form noun (application, ACORD,
+   Signature or completion marker (signed, signs, completed,
+   executed, dated, fill out) plus a form noun (application, ACORD,
    supplemental, disclosure, questionnaire), or a standalone
    signature document (PIP / UM-UIM selection, coverage
-   election/rejection forms).
+   election/rejection forms, named warranty/consent statements like
+   a "Client Consent Warranty Statement").
    -> Collapse into ONE anonymous DocuSign line. Never name forms.
 |
 7. Explicit attestation of eligibility facts?
    "Confirmation of / that", "please confirm", "must confirm",
-   "warrant that", "attest that", "confirm no ...", or a letter the
-   insured signs explicitly confirming eligibility facts ("letter
-   signed and dated by the insured confirming...") about exposures,
-   operations, staffing, revenue, or other eligibility conditions.
+   "reconfirm", "subject to confirming", "warrant that", a leading
+   "WARRANTED:" label (the warranty compound takes confirmation
+   collapse even when it also mentions a certificate page), "attest
+   that", "confirm no ...", or a letter the insured signs explicitly
+   confirming eligibility facts ("letter signed and dated by the
+   insured confirming...") about exposures, operations, staffing,
+   revenue, or other eligibility conditions.
+   EXCEPTION: a LEADING copy-of / proof-of document ask with a
+   trailing confirm-purpose clause ("Copy of expiring policy and all
+   endorsements, to confirm retroactive dates") is the document ask,
+   not an attestation - route it to step 8.
+   Confirmations fail closed: third-party coverage content and
+   carrier re-underwrite language never reach this step (vetoed at
+   steps 1-3).
    -> Collapse into ONE generic confirmation line.
       Never list the underlying conditions.
 |
 8. Clear customer-owned deliverable WITH an explicit ask?
    Rendering a listed item requires an explicit customer-directed ask
-   construction: an imperative or request verb (provide / submit /
+   construction FROM EVERY MATCHER, including licenses and
+   certifications: an imperative or request verb (provide / submit /
    forward / send / furnish), a copy-of / proof-of / details-of
    construction, or a direct question to the customer about their own
    coverage or claims history. Document nouns alone ("product list",
-   "procedure", "contract") DO NOT qualify, and a bare declarative
-   fact ("A formal procedure is in place...") is never an
-   information request. Classes: VINs, driver licenses, declaration
-   pages, photos, resumes, inspection contact details, website,
-   licenses and certifications, contracts, or a specific information
-   ask.
+   "procedure", "contract", "license") DO NOT qualify; a bare
+   declarative fact or coverage condition ("Armed personnel must be
+   properly certified...", "Licensing and background checks conducted
+   as required...") and an acknowledgement ("Acknowledgement that any
+   available licenses must be obtained...") are NEVER information
+   requests from any matcher. The retail agent's / producing broker's
+   own license number is broker-channel data, never a customer
+   deliverable. Classes: VINs, driver licenses, declaration pages,
+   photos, resumes, inspection contact details, website, licenses and
+   certifications, contracts, or a specific information ask.
    -> RENDER the fixed friendly phrasing for that class.
       Never render raw or lightly cleaned source text.
 |
@@ -147,7 +179,12 @@ All of these collapse into the single DocuSign line. Ten forms still produce one
 - "Fully completed and signed New Mexico Uninsured Motorists Coverage Disclosure/Selection/Rejection form"
 - "Completed and signed 'Employee's Rejection of Statutory Coverage' form for any owner/officer to be excluded."
 
-Broker-side paperwork boundary (Brandon ruling, 2026-07): signed TRIA/terrorism forms, no-known-loss letters, surplus lines / SL forms of any state, state and tax packets, licensee disclosures, and affidavits NEVER reach the customer, signed or not - the broker handles them at binding. They are hidden, not DocuSign. Customer-signed coverage election/rejection forms (PIP, UM/UIM, officer exclusion) remain DocuSign.
+- "Fully completed, currently signed and dated Hiscox Client Consent Warranty Statement" (a named warranty/consent statement is a standalone customer-signature document)
+- "An authorized representative of the Named Insured signs the Coalition application in 10 days of the issuance of a binder" (the consequence clause is not never-render evidence)
+
+Broker-side paperwork boundary (Brandon ruling, 2026-07): signed TRIA/terrorism forms, no-known-loss letters, signed statements of no losses, surplus lines / SL forms of any state, non-admitted forms of any state, state and tax packets, licensee disclosures, and affidavits NEVER reach the customer, signed or not - the broker handles them at binding. They are hidden, not DocuSign. Customer-signed coverage election/rejection forms (PIP, UM/UIM, officer exclusion) and named warranty/consent statements remain DocuSign.
+
+Carrier-review boundary (blind validation round 4, 2026-07): "Underwriter receipt, review and acceptance of the fully completed application" and any signed form wrapped in receipt-and-acceptance language are HIDDEN, not DocuSign - the carrier accepting a document is not the customer owing one.
 
 ### Confirmations (one generic line, conditions never listed)
 
@@ -159,6 +196,9 @@ Broker-side paperwork boundary (Brandon ruling, 2026-07): signed TRIA/terrorism 
 - "Rating Basis: 1 Non-Furnished Owner *confirmation of a personal auto policy in place prior to binding"
 - "Must receive a letter signed and dated by the insured confirming drink specials are not longer than 3 hours" (signed letter explicitly confirming eligibility facts)
 - "TO BIND, CONFIRM NO CANNABIS, CBD, OR THC-INFUSED DRINKS ARE SOLD / SERVED."
+- "Reconfirm the latest closing time."
+- "Subject to confirming all states the applicant provides service/repair work in"
+- "WARRANTED: General Liability Insurance coverage in force, a copy of the certificate page to be produced prior to binding" (the warranty compound takes confirmation collapse)
 - "Warranty that the insured has not had any regulatory action initiated against them in the last five years as a direct result of a cyber event"
 - "No employees, no independent contractors, and no work subcontracted to others." (bare declarative; safe to hide instead)
 - "Must maintain a liquor liability policy" (bare declarative; safe to hide instead)
@@ -178,6 +218,13 @@ Broker-side paperwork boundary (Brandon ruling, 2026-07): signed TRIA/terrorism 
 - "Prior to binding, please provide a full list of products; pricing and terms subject to change upon review" (carrier-conditional veto beats the please-provide construction)
 - "Completed and signed financing agreement (if applicable)" (financing family by semantics)
 - "All subjectivities (except inspections) must be received and accepted by the carrier prior to binding."
+- "Subject to receipt and acceptance of signed and dated Kinsale Supplement upon binding" (the carrier-review wrapper vetoes the signed-form match)
+- "Underwriter receipt, review and acceptance of the fully completed application" (carrier review workflow, not a signature ask)
+- "Subject to confirmation the insured does not perform any work underground. Please note the answer may affect our pricing, terms, and/or acceptability." (re-underwrite language vetoes the confirmation match)
+- "A fully completed, signed and dated MS Non-Admitted Form." (non-admitted forms of any state are surplus-lines broker-side paperwork)
+- "Statement of No Losses - Signed and dated by the insured" (signed no-loss statements are broker-side binding paperwork; the bare unsigned "Statement of no loss" stays a confirmation)
+- "A survey of your premises may be conducted by a representative of [Carrier]" (carrier-conducted inspection)
+- "This quotation is issued based on the truthfulness and accuracy of the responses to the questions on the insurance application" (quotation-accuracy boilerplate)
 - "She has sent us every subjectivity. Please review email bot to collect these things. - [Name]"
 - "[Carrier] must be advised of any change in the information provided, or change in the exposure basis, hazard or risk prior to the effective date of coverage."
 
@@ -196,6 +243,10 @@ Broker-side paperwork boundary (Brandon ruling, 2026-07): signed TRIA/terrorism 
 - "Claims related to subcontractors may not be covered if the certificates of insurance, hold harmless agreements, and proof of workers' compensation are not obtained as stated." (consequence-only third-party language)
 - "A formal procedure is in place outlining the protocol for handling and reporting potential concussions." (bare declarative, no ask verb and no attestation request)
 - "No more than 25% of services provided to minors who have been victims of molestation, abuse or violence." (bare eligibility declarative)
+- "Armed personnel must be properly certified by state agency or firearms certification school" (bare certification declarative - never the licenses line)
+- "Acknowledgement that any available licenses must be obtained in order for coverage to apply." (an acknowledgement is not a document request)
+- "For non-admitted business, the retail agents NY broker license number is required prior to binding." (the agent's own license number is broker-channel data)
+- "Confirmation that all participating alcohol vendors carry Liquor Liability limits equal to or greater than our applicant's." (third-party coverage; the confirmation surface form does not rescue it)
 - "A jobsite inspection."
 - "Applicant will not ever do business in any of the following states: AL, AK, DC, IL, LA, MS, RI, MN, NM, SC, WA, or WV."
 
@@ -253,6 +304,7 @@ These lessons are what keep the rules durable. Skipping any of them has produced
 4. **Per-example patching creates overfit matchers.** Do not solve misses with one-off regexes keyed to specific sentences. Classify by responsibility signals (who acts: client provides, client signs, broker or carrier handles) so new phrasings inherit the right behavior.
 5. **Matcher internals are implementation details.** Exact patterns and evidence lists evolve; the executable ground truth is the labeled fixture set and the regression gate in the engineering repo (hercules, `tests/eval/`). A release fails if any hidden item becomes visible, a form name escapes the DocuSign collapse, an eligibility condition is listed, or standardized copy changes.
 6. **Positive gates beat denylist growth (blind validation round 3, 2026-07).** The round-3 blind validation produced 8 leaks from novel carrier language that slipped the denylist and then positively matched broad document/information matchers. The durable fix is stricter positive gates - the ask-verb requirement for listed items, the carrier-conditional veto, and the third-party-actor veto - not more denylist patterns keyed to the leaked sentences.
+7. **Gates must be structurally unbypassable (blind validation round 4, 2026-07).** Round 4 produced 8 leaks even though every round-3 gate held on fresh wording, because the gates were wired into individual matcher paths: the licenses matcher had no ask-verb gate, and the DocuSign and confirmation paths ran no carrier-conditional or third-party veto. The durable fix is ONE central choke point that every positive classification passes before it can produce visible output: vetoes first, verdict final for all buckets, ask-verb required for a listed line from any matcher, and the same gate on the LLM path. A gate that exists but is not on every path is a leak waiting for the path you did not touch.
 
 ## 5. Review checklist
 
@@ -260,11 +312,19 @@ These lessons are what keep the rules durable. Skipping any of them has produced
 - [ ] Every item classified by responsibility (who acts), first match wins
 - [ ] Unknown and ambiguous items are hidden
 - [ ] Never-render precedence applied (beats every visible bucket)
+- [ ] Vetoes run at ONE central choke point, before every positive matcher
+- [ ] Veto verdicts are final for ALL buckets (listed, DocuSign, confirmation)
 - [ ] Listed items carry an explicit customer-directed ask construction
-- [ ] Carrier-conditional language (subject to change / upon review) vetoed
-- [ ] Third-party documents (subs' / vendors' / tenants') stay hidden
+- [ ] Ask-verb gate applies to EVERY listed matcher, including licenses
+- [ ] Carrier-conditional language (subject to change / upon review /
+      receipt and acceptance / re-underwrite markers) vetoed in all buckets
+- [ ] Third-party documents (subs' / vendors' / tenants') stay hidden,
+      including confirmation-shaped items about their coverage
 - [ ] Financing agreements hidden by semantics, not exact wording
-- [ ] Bare declaratives never rendered as information requests
+- [ ] Bare declaratives and acknowledgements never rendered as asks
+- [ ] Retail agent's / producing broker's own license number suppressed
+- [ ] Non-admitted forms (any state) stay broker-side with surplus lines
+- [ ] The LLM path passes the same central gate as the deterministic path
 - [ ] Loss runs first, source-faithful years, "3 to 5" only as safe default
 - [ ] No-prior-coverage note renders beneath the loss-runs item only
 - [ ] Personal auto coverage not treated as prior commercial coverage
