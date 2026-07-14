@@ -66,6 +66,16 @@ START: one raw subjectivity item
    producer name and license); colon-form prohibited-exposure lists
    ("Prohibited: ..." - the imperative safeguard condition "Prohibit
    storage of highly flammable items" stays a visible confirmation).
+   Round 6 broadening (2026-07-14): binding-workflow exposure
+   verification in any wording ("Verify/Ensure/BE SURE ... exposures
+   ... match what was offered on the quote"); binder-receipt conditions
+   naming internal receipt actors ("contingent upon our receiving");
+   financing contract/agreement/installment variants by semantics;
+   possession-of-credential declaratives ("hold/carry/possess valid
+   licenses or certifications") without an ask verb; ineligible/
+   prohibited-operations list labels by semantics; carrier-inspection
+   thresholds in any completion word order; willingness-to-remit
+   confirmations in any paraphrase.
    -> HIDE. Never-render evidence beats every other match,
       even a strong deliverable surface form.
 |
@@ -85,7 +95,13 @@ START: one raw subjectivity item
    conditional wrappers ("Subject to receipt and acceptance of 5
    years currently valued loss runs" still renders the loss-runs
    contract). The carve-out is applied at the central gate, not
-   inside a matcher.
+   inside a matcher. Round 6 broadening: any receipt token combined
+   with any review/acceptance/approval token in either order vetoes
+   every bucket, including actor-attributed underwriter review and
+   approval of completed applications (the census DOCUSIGN family,
+   re-adjudicated HIDDEN). Bare "review and approval of <customer
+   details>" with no receipt token and no carrier actor stays a valid
+   ask.
    -> HIDE.
 |
 4. Loss runs or loss history?
